@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    min-width: 320px;
+}
+
+main {
+    flex: 1;
+}
+
+.charity-description {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.body-class {
+    line-height: 2.0;
+    background-color: #cdd7d6;
+    padding-bottom: 100px;
+}
+
+.header-class {
+    background-color: #f87060;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid black;
+
+}
+
+.contact-form {
+    display: none;
+}
+
+.nav-class-main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: stretch;
+    background-color: darkgrey;
+    border: 3px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+  
+  .nav-link-class-main {
+    display: flex;
+    text-decoration: none;
+    color: navy;
+    font-size: larger;
+    font-weight: bold;
+    padding: 100px;
+}
+
+.header-link-class {
+    text-decoration: none;
+    color: navy;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.image-class {
+   
+    border-radius: 20px;
+}
+
+.h3-class {
+    color: navy;
+}
+
+.footer-class {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+}
+
+.top-description {
+    color: navy;
+}
+
